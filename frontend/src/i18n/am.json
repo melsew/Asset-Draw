@@ -1,0 +1,413 @@
+{
+  "app": { "name": "አሴት-ድራው", "tagline": "ግልጽ ዲጂታል ሽልማት እጣ፣ ማንም ሊያረጋግጠው ይችላል።" },
+  "demo": {
+    "notice": "የሕዝብ ሙከራ — ናሙና ውሂብ ብቻ ነው። SMS፣ ግቤቶች፣ ክፍያዎች እና የዕጣ ውጤቶች ምሳሌ ናቸው፤ እውነተኛ የግል ወይም የክፍያ መረጃ አታስገቡ።"
+  },
+
+  "nav": {
+    "ariaLabel": "ዋና ምናሌ",
+    "campaigns": "ዘመቻዎች",
+    "results": "ውጤቶች",
+    "verify": "እጣ ያረጋግጡ",
+    "myEntries": "የእኔ ግቤቶች",
+    "login": "ግባ",
+    "register": "ተመዝገብ",
+    "logout": "ወጣ",
+    "vendorDashboard": "የሻጭ ፖርታል",
+    "admin": "አስተዳዳሪ",
+    "openMenu": "ምናሌ ክፈት",
+    "closeMenu": "ምናሌ ዝጋ",
+    "mobileMenu": "የሞባይል ምናሌ"
+  },
+
+  "hero": {
+    "ariaLabel": "ዋና ሰሌዳ",
+    "slide1": {
+      "eyebrow": "ነፃ እና የማስተዋወቂያ ዘመቻዎች",
+      "title": "ሽልማቶችን ያሸንፉ። እጣውን ራስዎ ያረጋግጡ።",
+      "sub": "በሻጮች የሚደጎሙ ዘመቻዎችን ይፈልጉ፣ ግቤትዎን ያግኙ፣ ምስጠራዊ እጣውን ይጠብቁ — ሁሉም በአንድ ግልጽ መድረክ።"
+    },
+    "slide2": {
+      "eyebrow": "በግልጽነት የተዘጋጀ",
+      "title": "ሁሉም አሸናፊ ተናጥሎ ሊረጋገጥ ይችላል።",
+      "sub": "HMAC-SHA256 የእጣ ፕሮቶኮላችን ከእጣ በፊት የግቤት ዝርዝሩን ይቆልፋል። ማንኛቸውም ውጤቱን ሊያረጋግጡ ይችላሉ።"
+    },
+    "slide3": {
+      "eyebrow": "ለኢትዮጵያ ንግዶች",
+      "title": "ምርቶቹን ሰዎች የሚያስታውሷቸው ዘመቻዎች ያድርጓቸው።",
+      "sub": "አምራቾች፣ አስመጪዎች እና ቸርቻሪዎች ሽልማቶችን ይደጉማሉ — በመላ ኢትዮጵያ ሺዎችን ያሳትፋሉ።"
+    },
+    "browseCampaigns": "ዘመቻዎችን ተሳታፊ ሁን",
+    "verifyDraw": "እጣ አረጋግጥ",
+    "prev": "ቀዳሚ ሰሌዳ",
+    "next": "ቀጣይ ሰሌዳ"
+  },
+
+  "stats": {
+    "ariaLabel": "የመድረክ ስታቲስቲክስ",
+    "campaigns": "የተጀመሩ ዘመቻዎች",
+    "vendors": "ተሳታፊ ሻጮች",
+    "entries": "ጠቅላላ ግቤቶች",
+    "winners": "ሽልማት አሸናፊዎች"
+  },
+
+  "campaigns": {
+    "eyebrow": "ቀጣይ እድልዎን ያግኙ",
+    "title": "ንቁ ዘመቻዎች",
+    "viewAll": "ሁሉንም ዘመቻዎች ይመልከቱ",
+    "loadError": "ዘመቻዎችን መጫን አልተቻለም። እባክዎ ቆይተው ይሞክሩ።",
+    "empty": "አሁን ምንም ዘመቻ የለም",
+    "emptyDesc": "ቶሎ ይምጡ — አዲስ ዘመቻዎች ብዙ ጊዜ ይታከላሉ።",
+    "pageTitle": "ሁሉም ዘመቻዎች",
+    "pageDesc": "የሚገኙ ዘመቻዎችን ያሰሱ እና ያጣሩ።",
+    "searchPlaceholder": "ዘመቻዎችን ይፈልጉ…",
+    "allCategories": "ሁሉም ዘርፎች",
+    "allStatuses": "ሁሉም ሁኔታዎች",
+    "allModes": "ሁሉም የግቤት ዓይነቶች",
+    "noResults": "ዘመቻ አልተገኘም",
+    "noResultsDesc": "ፍሰቶቹን ወይም የፍለጋ ቃሉን ይለውጡ።",
+    "resultCount": "{{count}} ዘመቻዎች ተገኝተዋል"
+  },
+
+  "campaign": {
+    "participate": "ተሳተፍ",
+    "closes": "የሚዘጋው {{date}}",
+    "details": "ዝርዝር",
+    "entryCount": "{{count}} / {{max}} ግቤቶች",
+    "aboutPrize": "ስለ ሽልማቱ",
+    "declaredValue": "የተገለጸ ዋጋ፦ {{value}} ብር",
+    "participation": "የተሳትፎ ሂደት",
+    "drawIn": "እስከ እጣ ድረስ ያለ ጊዜ",
+    "rules": "የዘመቻ ደንቦች",
+    "enterDraw": "ወደዚህ እጣ ግቡ",
+    "freeEntry": "ነፃ ግቤት",
+    "paidEntryGate": "ክፍያ ያስፈልጋል። መንቃቱ ሕጋዊ ፈቃድ ያስፈልጋል።",
+    "loginRequired": "ለመሳተፍ መግባት ያስፈልጋል።",
+    "loginToEnter": "ለመሳተፍ ግቡ",
+    "payAndEnter": "ክፈሉ እና ግቡ",
+    "getEntry": "ግቤቴን ያዝ",
+    "full": "ዘመቻ ሞልቷል",
+    "entrySuccess": "ተሳትፈዋል!",
+    "youreIn": "ወደ እጣው ተሳትፈዋል!",
+    "entrySuccessDesc": "ልዩ የግቤት ቁጥርዎ ተሰጥቷል። መልካም ዕድል!",
+    "yourEntryNumber": "የእርስዎ የግቤት ቁጥር",
+    "viewCampaign": "ዘመቻን ይመልከቱ",
+    "verifyNote": "የእጣ ውጤቶች ምስጠራዊ ናቸው።",
+    "notFound": "ዘመቻ አልተገኘም።"
+  },
+
+  "entryMode": {
+    "FREE": "ነፃ ግቤት",
+    "PROMOTIONAL": "የማስተዋወቂያ",
+    "PURCHASE": "ብቁ ግዢ",
+    "PAID_ENTRY": "ክፍያ ያለው ግቤት",
+    "REFERRAL": "ሪፈራል"
+  },
+
+  "status": {
+    "DRAFT": "ረቂቅ",
+    "SUBMITTED": "ቀርቧል",
+    "UNDER_REVIEW": "በግምገማ",
+    "REJECTED": "ውድቅ ተደርጓል",
+    "APPROVED": "ተፈቅዷል",
+    "ASSET_VERIFIED": "ንብረት ተረጋግጧል",
+    "SCHEDULED": "ቀጠሮ ተሰጥቷል",
+    "ACTIVE": "ክፍት",
+    "FAILED": "አልተሳካም",
+    "ENTRY_CLOSED": "ግቤቶች ተዘጋ",
+    "POOL_LOCKED": "ዝርዝር ቆልፈዋ",
+    "DRAWING": "ዕጣ በሂደት",
+    "DRAW_COMPLETED": "ዕጣ ተጠናቋል",
+    "WINNER_VERIFIED": "አሸናፊ ተረጋግጧል",
+    "PRIZE_DELIVERED": "ሽልማት ተሰጥቷል",
+    "COMPLETED": "ተጠናቋል",
+    "SUSPENDED": "ታግዷል",
+    "CANCELLED": "ተሰርዟል",
+    "checking": "በመፈተሽ ላይ…",
+    "ready": "ዝግጁ",
+    "unavailable": "አይገኝም"
+  },
+
+  "countdown": {
+    "days": "ቀን",
+    "hours": "ሰዓ",
+    "minutes": "ደቂ",
+    "seconds": "ሰከ",
+    "accessible": "{{days}} ቀን፣ {{hours}} ሰዓ፣ {{minutes}} ደቂ፣ {{seconds}} ሰከ",
+    "notScheduled": "የዕጣ ቀን አልተወሰነም",
+    "awaitingStatus": "የዕጣ ሁኔታ በመጠበቅ",
+    "inProgress": "ዕጣ አሁን",
+    "resultPublished": "ውጤት ታትሟል"
+  },
+
+  "categories": {
+    "eyebrow": "በሽልማት ዓይነት ይፈልጉ",
+    "title": "የሽልማት ዘርፎች",
+    "items": {
+      "car": "መኪና",
+      "smartphone": "ስማርት ስልክ",
+      "laptop": "ላፕቶፕ",
+      "tablet": "ታብሌት",
+      "tv": "ቴሌቪዥን",
+      "refrigerator": "ማቀዝቀዣ",
+      "washingMachine": "የልብስ ማጠቢያ",
+      "travel": "ጉዞ",
+      "other": "ሌሎች"
+    }
+  },
+
+  "how": {
+    "eyebrow": "በግልጽነት የተዘጋጀ",
+    "title": "ዕጣ እንዴት ይሠራል",
+    "verifyLink": "የተጠናቀቀ ዕጣ ያረጋግጡ",
+    "step1": { "title": "ይመዝገቡ እና ይፈልጉ", "desc": "ነፃ መለያ ይፍጠሩ እና ንቁ ዘመቻዎችን ያሰሱ።" },
+    "step2": { "title": "ግቤቶን ያዙ", "desc": "ለዘመቻው ብቁ ሁኑ። ልዩ ቁጥርዎ ይቆለፋል።" },
+    "step3": { "title": "ዝርዝሩ ይቆለፋል", "desc": "ሁሉም ግቤቶች ሲዘጉ ዝርዝሩ ይቆለፋል። አዲስ ግቤቶች አይታከሉም።" },
+    "step4": { "title": "ውጤቱን ያረጋግጡ", "desc": "HMAC-SHA256 ውጤት ይታተማል። ማንኛቸውም ሊረጋግጡ ይችላሉ።" }
+  },
+
+  "rules": {
+    "oneEntry": "አንድ ብቁ ተሳታፊ አንድ ግቤት ብቻ።",
+    "freeEntry": "የግቤት ዓይነት፦ {{mode}}። ምንም ግዢ አያስፈልግም።",
+    "cryptoDraw": "አሸናፊ HMAC-SHA256 ምስጠራዊ እጣ ይወሰናል።",
+    "publicVerify": "የማረጋገጫ ማስረጃ ከዕጣ በኋላ ይታተማል።",
+    "prizeEscrow": "ሽልማት ዘመቻ ከመጀመሩ በፊት ኤስክሮው ይደረጋል።"
+  },
+
+  "vendor": {
+    "ctaTitle": "ምርቶቹን ሰዎች የሚያስታውሷቸው ዘመቻዎች ያድርጓቸው።",
+    "ctaDesc": "አምራቾች፣ አስመጪዎች፣ ቸርቻሪዎች እና አከፋፋዮች በምርት ላይ የተመሰረቱ ዘመቻዎችን ሊደጉሙ ይችላሉ።",
+    "ctaBtn": "ሻጭ ሁን",
+    "learnMore": "የሻጭ ፖርታል",
+    "accessDenied": "መዳረሻ የተከለከለ",
+    "accessDeniedDesc": "ይህ ቦታ ለፀደቁ ሻጮች ብቻ ነው።",
+    "dashboard": "የሻጭ ፖርታል",
+    "overview": "አጠቃላይ እይታ",
+    "campaigns": "ዘመቻዎቼ",
+    "assets": "ንብረቶቼ",
+    "overviewTitle": "አጠቃላይ እይታ",
+    "campaignsTitle": "ዘመቻዎች",
+    "assetsTitle": "ንብረቶች",
+    "welcome": "እንኳን ደህና መጡ፣ {{name}}",
+    "newCampaign": "አዲስ ዘመቻ",
+    "totalCampaigns": "ጠቅላላ ዘመቻዎች",
+    "activeCampaigns": "ንቁ",
+    "totalEntries": "ጠቅላላ ግቤቶች",
+    "completedDraws": "የተጠናቀቁ ዕጣዎች",
+    "live": "ቀጥታ",
+    "recentCampaigns": "የቅርብ ጊዜ ዘመቻዎች",
+    "noCampaigns": "ምንም ዘመቻ የለም",
+    "noCampaignsDesc": "ደንበኞችን ለመድረስ የመጀመሪያ ዘመቻዎን ይፍጠሩ።",
+    "noAssets": "ምንም ንብረት አልተመዘገበም",
+    "noAssetsDesc": "ዘመቻ ለመፍጠር ሽልማት ንብረት ይመዝግቡ።",
+    "th": { "campaign": "ዘመቻ", "prize": "ሽልማት", "entries": "ግቤቶች", "status": "ሁኔታ", "asset": "ንብረት", "value": "ዋጋ" }
+  },
+
+  "admin": {
+    "panel": "የአስተዳዳሪ ፓኔል",
+    "title": "አስተዳደር",
+    "subtitle": "ገብተዋል፦ {{name}}",
+    "campaigns": "ዘመቻዎች",
+    "vendors": "ሻጮች",
+    "draws": "የዕጣ ሥራዎች",
+    "drawsNote": "የዕጣ ውጤቶች እዚህ ለማየት ብቻ ናቸው። የታተመ ውጤትን ለመመርመር ሕዝባዊ ማረጋገጫን ይጠቀሙ።",
+    "accessDenied": "መዳረሻ ተከልክሏል",
+    "accessDeniedDesc": "ይህ ፓኔል ለአስተዳዳሪዎች ብቻ ነው።",
+    "totalCampaigns": "ጠቅላላ ዘመቻዎች",
+    "pendingReview": "ግምገማ በሚጠብቁ",
+    "totalVendors": "ጠቅላላ ሻጮች",
+    "activeCampaigns": "ንቁ ዘመቻዎች",
+    "pendingAlert": "{{count}} ዘመቻ(ዎች) ግምገማ ይጠብቃሉ",
+    "approve": "አፅድቅ",
+    "startReview": "ግምገማ ጀምር",
+    "verifyAssets": "ንብረቶችን አረጋግጥ",
+    "schedule": "ቀጠሮ ያዝ",
+    "approveVendor": "ሻጭን አጽድቅ",
+    "retry": "እንደገና ሞክር",
+    "searchCampaigns": "በዘመቻ፣ ሻጭ ወይም ሽልማት ፈልግ",
+    "filterStatus": "በሁኔታ አጣራ",
+    "allStatuses": "ሁሉም ሁኔታዎች",
+    "noMatchingCampaigns": "ከእነዚህ ማጣሪያዎች ጋር የሚዛመድ ዘመቻ የለም",
+    "noDraws": "ምንም ዕጣ አልተፈጠረም",
+    "loadCampaignsError": "ዘመቻዎችን መጫን አልተቻለም።",
+    "loadVendorsError": "ሻጮችን መጫን አልተቻለም።",
+    "loadDrawsError": "ዕጣዎችን መጫን አልተቻለም።",
+    "actionError": "የተጠየቀውን እርምጃ ማጠናቀቅ አልተቻለም።",
+    "notProvided": "አልቀረበም",
+    "notPlanned": "አልተያዘም",
+    "notLocked": "አልተቆለፈም",
+    "notPublished": "አልታተመም",
+    "viewVerification": "አረጋግጥ",
+    "viewCampaign": "{{title}} ይመልከቱ",
+    "th": {
+      "campaign": "ዘመቻ",
+      "vendor": "ሻጭ",
+      "prize": "ሽልማት",
+      "entryMode": "የግቤት ዓይነት",
+      "status": "ሁኔታ",
+      "actions": "ድርጊቶች",
+      "legalName": "ሕጋዊ ስም",
+      "contact": "ዕውቂያ",
+      "entropy": "የታቀደ ኢንትሮፒ",
+      "lockedAt": "ዝርዝር የተቆለፈበት"
+    },
+    "noCampaigns": "ምንም ዘመቻ የለም",
+    "noVendors": "ምንም ሻጭ አልተመዘገበም",
+    "drawsDesc": "የዕጣ ሥራዎች"
+  },
+
+  "entries": {
+    "title": "የእኔ ግቤቶች",
+    "subtitle": "ሁሉንም ዘመቻ ግቤቶቼን ለይቶ ይከታተሉ።",
+    "loginRequired": "ግቤቶቼን ለማየት ግቡ",
+    "loginRequiredDesc": "ዘመቻዎችን ለመሳተፍ ነፃ መለያ ይፍጠሩ።",
+    "loadError": "ግቤቶችን መጫን አልተቻለም።",
+    "empty": "ምንም ግቤቶች የሉም",
+    "emptyDesc": "ንቁ ዘመቻዎችን ያሰሱ እና የመጀመሪያ ግቤቶን ያዝ።",
+    "entered": "የገቡት {{date}}",
+    "drawAt": "ዕጣ፦ {{date}}",
+    "winner": "አሸናፊ",
+    "eligible": "ብቁ",
+    "active": "ንቁ",
+    "cancelled": "ተሰርዟል"
+  },
+
+  "results": {
+    "title": "የዕጣ ውጤቶች",
+    "subtitle": "የተጠናቀቁ ዕጣዎችን ይመልከቱ እና ውጤቶችን ያረጋግጡ።",
+    "loadError": "ውጤቶችን መጫን አልተቻለም።",
+    "empty": "ምንም ዕጣ አልተጠናቀቀም",
+    "emptyDesc": "የተጠናቀቁ ዘመቻዎች ዕጣዎች እዚህ ይታያሉ።",
+    "verify": "አረጋግጥ"
+  },
+
+  "verify": {
+    "eyebrow": "ሕዝባዊ ማረጋገጫ",
+    "title": "የዕጣ ውጤት ያረጋግጡ",
+    "desc": "ምስጠራዊ አሸናፊ ምርጫን ተናጥሎ ለማረጋገጥ የዕጣ መለያ ያስገቡ። መግባት አያስፈልግም።",
+    "lookupTitle": "ዕጣ ፈልጉ",
+    "drawIdPlaceholder": "የዕጣ መለያ ያስገቡ…",
+    "btn": "አረጋግጥ",
+    "empty": "ከላይ የዕጣ መለያ ያስገቡ",
+    "emptyDesc": "የተጠናቀቁ የዕጣ መለያዎች ከዘመቻ ውጤቶች ጋር ይታተማሉ።",
+    "notFound": "ዕጣ አልተገኘም ወይም ገና አልታተመም።",
+    "pass": "✓ ማረጋገጫ አለፈ — ውጤቱ ትክክለኛ ነው",
+    "fail": "✗ ማረጋገጫ አልሠራም — ውጤቱ ሊረጋገጥ አልቻለም",
+    "summary": "የዕጣ ማጠቃለያ",
+    "campaign": "ዘመቻ",
+    "drawId": "የዕጣ መለያ",
+    "algorithm": "ፕሮቶኮል",
+    "totalEntries": "ጠቅላላ ግቤቶች",
+    "winnerIndex": "የአሸናፊ ጠቋሚ",
+    "winnerEntry": "አሸናፊ ግቤት",
+    "lockedAt": "ዝርዝር የተቆለፈበት",
+    "completedAt": "ዕጣ የተጠናቀቀበት",
+    "evidence": "ምስጠራዊ ማስረጃ",
+    "poolHash": "የዝርዝር ሃሽ (SHA-256)",
+    "seedCommitment": "ዘር ቁርጠኝነት (SHA-256)",
+    "revealedSeed": "የተገለጠ ዘር",
+    "canonicalMsg": "የዕጣ ካኖኒካዊ መልእክት",
+    "independentNote": "ይህ ውጤት docs/draw-protocol/ ላይ ባለው ማረጋገጫ ስክሪፕት ሊረጋገጥ ይችላል።",
+    "howTitle": "ራሱን ቼ ለማረጋገጥ",
+    "step1": "1. የማረጋገጫ ጥቅሉን ያውርዱ (የዝርዝር ሃሽ፣ ዘር፣ ካኖኒካዊ መልዕክት)።",
+    "step2": "2. ብቁ ግቤት መለያዎችን ይደርደሩ እና SHA-256 ያስሉ።",
+    "step3": "3. የዝርዝር ሃሽ ከተቀረጸው ጋር እኩል መሆኑን ያረጋግጡ።",
+    "step4": "4. HMAC-SHA256(seed, canonical_message) ያስሉ እና ውጤቱን ያወዳድሩ።",
+    "step5": "5. ዲጀስቱን ወደ አሸናፊ ጠቋሚ ይቀይሩ፦ index = int(digest, 16) % total_entries።"
+  },
+
+  "auth": {
+    "loginTitle": "እንኳን ደህና መጡ",
+    "loginSubtitle": "ወደ አሴት-ድራው መለያዎ ይግቡ",
+    "loginBtn": "ግባ",
+    "loginError": "ስልክ ቁጥር ወይም የይለፍ ቃል ስህተት ነው።",
+    "noAccount": "መለያ የሎሎት?",
+    "registerLink": "ተመዝገቡ",
+    "phoneLabel": "ስልክ ቁጥር",
+    "phonePlaceholder": "09xxxxxxxx",
+    "passwordLabel": "የይለፍ ቃል",
+    "passwordPlaceholder": "የይለፍ ቃልዎን ያስገቡ",
+    "registerTitle": "መለያ ፍጠሩ",
+    "registerSubtitle": "ወደ አሴት-ድራው ይቀላቀሉ — ነፃ ነው",
+    "registerBtn": "መለያ ፍጠሩ",
+    "registerError": "ምዝገባ አልሠራም። እባክዎ እንደገና ይሞክሩ።",
+    "nameLabel": "ሙሉ ስም",
+    "namePlaceholder": "ሙሉ ስምዎ",
+    "confirmLabel": "የይለፍ ቃል አረጋጋጥ",
+    "confirmPlaceholder": "የይለፍ ቃልዎን ደጋገሙ",
+    "passwordMismatch": "የይለፍ ቃሎቹ አይዛመዱም።",
+    "hasAccount": "መለያ አላቸው?",
+    "loginLink": "ይግቡ",
+    "staffLoginLink": "የሰራተኞች መግቢያ",
+    "verifyTitle": "ቁጥርዎን ያረጋግጡ",
+    "verifySubtitle": "ለ{{phone}} የማረጋገጫ 6-አሃዝ ኮድ ያስገቡ",
+    "verifyBtn": "አረጋግጥ",
+    "otpLabel": "የማረጋገጫ ኮድ",
+    "developmentOtpCode": "የአካባቢ ሙከራ ብቻ — SMS አይላክም። ኮድ፦ {{code}}",
+    "otpRequired": "ሙሉ 6-አሃዝ ኮዱን ያስገቡ።",
+    "otpError": "ኮዱ ትክክል ያልሆነ ወይም ጊዜው ያለፈበት ነው።",
+    "backToRegister": "ወደ ኋላ",
+    "successTitle": "ሆነ!",
+    "successSubtitle": "መለያ ተፈጥሯል።",
+    "redirecting": "ወደ ዘመቻዎ እየሄደ ነው…"
+  },
+
+  "staffAccess": {
+    "loginTitle": "የሰራተኞች መግቢያ",
+    "loginSubtitle": "የሰራተኛ ኢሜይልና የይለፍ ቃል ይጠቀሙ። ባለሁለት ደረጃ ማረጋገጫ ያስፈልጋል።",
+    "mfaSubtitle": "ከማረጋገጫ መተግበሪያዎ የአሁኑን 6 አሃዝ ኮድ ያስገቡ።",
+    "setupTitle": "የሰራተኛ ባለሁለት ደረጃ ማረጋገጫ ያዘጋጁ",
+    "setupSubtitle": "ለመጀመሪያው አስተዳዳሪ መለያ የማረጋገጫ ምዝገባን ያጠናቅቁ።",
+    "setupInstructions": "በአንድ ጊዜ የሚሰራውን የማስነሻ ትዕዛዝ ያትማውን authenticator URI ወደ ማረጋገጫ መተግበሪያ ያክሉ፣ ከዚያም setup token እና የአሁኑን ኮድ እዚህ ያስገቡ። ሁለቱንም እንደ ሚስጥር ይያዙ።",
+    "emailLabel": "የሰራተኛ ኢሜይል",
+    "setupTokenLabel": "የአንድ ጊዜ ማዋቀሪያ ቶከን",
+    "authenticatorCodeLabel": "የማረጋገጫ ኮድ",
+    "continue": "ወደ MFA ይቀጥሉ",
+    "signIn": "ይግቡ",
+    "enableMfa": "MFA ያንቁ",
+    "back": "ወደ ኋላ",
+    "participantLogin": "የተሳታፊ መግቢያ",
+    "loginFailed": "የሰራተኛ መግቢያ አልተሳካም። መረጃዎንና የማረጋገጫ ኮዱን ያረጋግጡ።",
+    "setupFailed": "MFA ማዋቀር አልተሳካም። የማዋቀሪያ ቶከኑንና የአሁኑን ኮድ ያረጋግጡ።"
+  },
+
+  "verifyStrip": {
+    "eyebrow": "ምስጠራዊ ማረጋገጫ",
+    "title": "ማንኛቸውም ውጤቱን ሊያረጋግጡ ይችላሉ።",
+    "desc": "ፕሮቶኮላችን ሙሉ የማስረጃ ጥቅልን ያተማል — ማንኛቸውም ሊያረጋግጡ ይችላሉ።",
+    "btn": "ዕጣ ያረጋግጡ"
+  },
+
+  "footer": {
+    "about": "ግልጽ ዲጂታል ሽልማት ዕጣ ንግዶችን ከኢትዮጵያ ሸማቾች ጋር ያገናኛል።",
+    "explore": "ያሰሱ",
+    "forBusiness": "ለንግድ",
+    "becomeVendor": "ሻጭ ሁኑ",
+    "vendorPortal": "የሻጭ ፖርታል",
+    "legal": "ሕጋዊ",
+    "terms": "ደንቦች እና ሁኔታዎች",
+    "privacy": "የግላዊነት ፖሊሲ",
+    "copyright": "© {{year}} አሴት-ድራው። መብቱ የተጠበቀ ነው።",
+    "tagline": "ግልጽ ዘመቻዎች። ሕዝባዊ ማስረጃ። ተናጥሎ ሊረጋገጥ ይችላል።"
+  },
+
+  "currency": "ብር",
+  "common": {
+    "loading": "በመጫን ላይ…",
+    "view": "ይመልከቱ",
+    "close": "ዝጋ",
+    "save": "አስቀምጥ",
+    "cancel": "ሰርዝ",
+    "confirm": "አረጋግጥ"
+  },
+
+  "notFound": {
+    "title": "ገጽ አልተገኘም",
+    "desc": "ፈልጉት የነበሩት ገጽ የለም።",
+    "back": "ወደ መነሻ ተመለሱ"
+  },
+
+  "landing": {
+    "ribbon": "ለነፃ እና ለማስተዋወቂያ ሽልማት ዘመቻዎች ግልጽ መድረክ"
+  }
+}

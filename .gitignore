@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.env
+.vscode/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+*.tsbuildinfo
+coverage/
+*.log
+tmp_api_block.txt
+tmp_header_snip.txt

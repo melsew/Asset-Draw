@@ -1,0 +1,27 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: asset_draw
+      POSTGRES_USER: asset_draw
+      POSTGRES_PASSWORD: asset_draw
+    ports: ["5433:5432"]
+    volumes: ["postgres_data:/var/lib/postgresql/data"]
+  redis:
+    image: redis:7-alpine
+    ports: ["6379:6379"]
+  backend:
+    build: ./backend
+    environment:
+      DATABASE_URL: postgresql+psycopg://asset_draw:asset_draw@postgres:5432/asset_draw
+      REDIS_URL: redis://redis:6379/0
+    depends_on: [postgres, redis]
+    ports: ["8000:8000"]
+  frontend:
+    build: ./frontend
+    depends_on: [backend]
+    environment:
+      VITE_API_PROXY_TARGET: http://backend:8000
+    ports: ["5173:5173"]
+volumes:
+  postgres_data:

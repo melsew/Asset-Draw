@@ -1,0 +1,413 @@
+{
+  "app": { "name": "Asset-Draw", "tagline": "Transparent digital prize draws, independently verifiable." },
+  "demo": {
+    "notice": "PUBLIC DEMO — Sample data only. SMS, entries, payments, and draw results are simulated; do not enter real personal or payment information."
+  },
+
+  "nav": {
+    "ariaLabel": "Main navigation",
+    "campaigns": "Campaigns",
+    "results": "Results",
+    "verify": "Verify Draw",
+    "myEntries": "My Entries",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "vendorDashboard": "Vendor Portal",
+    "admin": "Admin",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mobileMenu": "Mobile navigation"
+  },
+
+  "hero": {
+    "ariaLabel": "Hero banner",
+    "slide1": {
+      "eyebrow": "Free & Promotional Campaigns",
+      "title": "Win real prizes. Verify the draw yourself.",
+      "sub": "Browse vendor-sponsored campaigns, get your entry, and watch the cryptographic draw — all in one transparent platform."
+    },
+    "slide2": {
+      "eyebrow": "Transparent by Design",
+      "title": "Every winner is independently verifiable.",
+      "sub": "Our HMAC-SHA256 draw protocol locks the entry pool before drawing. Anyone can reproduce and confirm the result."
+    },
+    "slide3": {
+      "eyebrow": "For Ethiopian Businesses",
+      "title": "Turn your products into memorable campaigns.",
+      "sub": "Manufacturers, importers, and retailers sponsor prizes — reaching thousands of engaged consumers across Ethiopia."
+    },
+    "browseCampaigns": "Browse Campaigns",
+    "verifyDraw": "Verify a Draw",
+    "prev": "Previous slide",
+    "next": "Next slide"
+  },
+
+  "stats": {
+    "ariaLabel": "Platform statistics",
+    "campaigns": "Campaigns launched",
+    "vendors": "Participating vendors",
+    "entries": "Total entries",
+    "winners": "Prize winners"
+  },
+
+  "campaigns": {
+    "eyebrow": "Find your next opportunity",
+    "title": "Active campaigns",
+    "viewAll": "View all campaigns",
+    "loadError": "Could not load campaigns. Please try again.",
+    "empty": "No campaigns right now",
+    "emptyDesc": "Check back soon — new campaigns are added regularly.",
+    "pageTitle": "All Campaigns",
+    "pageDesc": "Browse and filter available prize draw campaigns.",
+    "searchPlaceholder": "Search campaigns…",
+    "allCategories": "All prize categories",
+    "allStatuses": "All statuses",
+    "allModes": "All entry types",
+    "noResults": "No campaigns found",
+    "noResultsDesc": "Try adjusting your filters or search term.",
+    "resultCount": "{{count}} campaigns found"
+  },
+
+  "campaign": {
+    "participate": "Participate",
+    "closes": "Closes {{date}}",
+    "details": "Details",
+    "entryCount": "{{count}} / {{max}} entries",
+    "aboutPrize": "About the prize",
+    "declaredValue": "Declared value: {{value}} ETB",
+    "participation": "Participation progress",
+    "drawIn": "Time until draw",
+    "rules": "Campaign rules",
+    "enterDraw": "Enter this draw",
+    "freeEntry": "Free entry",
+    "paidEntryGate": "Payment required. Activation pending legal approval.",
+    "loginRequired": "You must be logged in to participate.",
+    "loginToEnter": "Login to participate",
+    "payAndEnter": "Pay & Enter",
+    "getEntry": "Get my entry",
+    "full": "Campaign full",
+    "entrySuccess": "You're entered!",
+    "youreIn": "You've been entered into the draw!",
+    "entrySuccessDesc": "Your unique entry number has been assigned. Good luck!",
+    "yourEntryNumber": "Your entry number",
+    "viewCampaign": "View campaign",
+    "verifyNote": "Draw results are cryptographically verifiable.",
+    "notFound": "Campaign not found."
+  },
+
+  "entryMode": {
+    "FREE": "Free entry",
+    "PROMOTIONAL": "Promotional",
+    "PURCHASE": "Qualifying purchase",
+    "PAID_ENTRY": "Paid entry",
+    "REFERRAL": "Referral"
+  },
+
+  "status": {
+    "DRAFT": "Draft",
+    "SUBMITTED": "Submitted",
+    "UNDER_REVIEW": "Under review",
+    "REJECTED": "Rejected",
+    "APPROVED": "Approved",
+    "ASSET_VERIFIED": "Asset verified",
+    "SCHEDULED": "Scheduled",
+    "ACTIVE": "Open",
+    "FAILED": "Failed",
+    "ENTRY_CLOSED": "Entries closed",
+    "POOL_LOCKED": "Pool locked",
+    "DRAWING": "Drawing",
+    "DRAW_COMPLETED": "Draw completed",
+    "WINNER_VERIFIED": "Winner verified",
+    "PRIZE_DELIVERED": "Prize delivered",
+    "COMPLETED": "Completed",
+    "SUSPENDED": "Suspended",
+    "CANCELLED": "Cancelled",
+    "checking": "Checking…",
+    "ready": "Ready",
+    "unavailable": "Unavailable"
+  },
+
+  "countdown": {
+    "days": "Days",
+    "hours": "Hrs",
+    "minutes": "Min",
+    "seconds": "Sec",
+    "accessible": "{{days}} days, {{hours}} hrs, {{minutes}} min, {{seconds}} sec",
+    "notScheduled": "Draw date not set",
+    "awaitingStatus": "Awaiting draw status",
+    "inProgress": "Drawing now",
+    "resultPublished": "Result published"
+  },
+
+  "categories": {
+    "eyebrow": "Browse by prize type",
+    "title": "Prize categories",
+    "items": {
+      "car": "Car",
+      "smartphone": "Smartphone",
+      "laptop": "Laptop",
+      "tablet": "Tablet",
+      "tv": "TV",
+      "refrigerator": "Refrigerator",
+      "washingMachine": "Washing Machine",
+      "travel": "Travel",
+      "other": "Other"
+    }
+  },
+
+  "how": {
+    "eyebrow": "Transparent by design",
+    "title": "How a draw works",
+    "verifyLink": "Verify a completed draw",
+    "step1": { "title": "Register & browse", "desc": "Create a free account and explore active vendor-sponsored campaigns." },
+    "step2": { "title": "Get your entry", "desc": "Qualify through the campaign's entry rules. Your unique number is locked in." },
+    "step3": { "title": "Pool is locked", "desc": "When all entries close, the pool is fixed. No new entries can be added." },
+    "step4": { "title": "Verify the result", "desc": "The HMAC-SHA256 draw output is published. Anyone can reproduce it independently." }
+  },
+
+  "rules": {
+    "oneEntry": "One entry per eligible participant.",
+    "freeEntry": "Entry type: {{mode}}. No purchase required.",
+    "cryptoDraw": "Winner selected using HMAC-SHA256 cryptographic draw.",
+    "publicVerify": "Verification data published after draw completion.",
+    "prizeEscrow": "Prize secured in escrow before campaign activation."
+  },
+
+  "vendor": {
+    "ctaTitle": "Turn products into campaigns people remember.",
+    "ctaDesc": "Manufacturers, importers, retailers, and dealers can sponsor prize-backed promotions that grow brand awareness and engage consumers across Ethiopia.",
+    "ctaBtn": "Become a vendor",
+    "learnMore": "Vendor portal",
+    "accessDenied": "Access restricted",
+    "accessDeniedDesc": "This area is for approved vendors. Please log in or apply to become a vendor.",
+    "dashboard": "Vendor portal",
+    "overview": "Overview",
+    "campaigns": "My Campaigns",
+    "assets": "My Assets",
+    "overviewTitle": "Overview",
+    "campaignsTitle": "Campaigns",
+    "assetsTitle": "Assets",
+    "welcome": "Welcome, {{name}}",
+    "newCampaign": "New Campaign",
+    "totalCampaigns": "Total campaigns",
+    "activeCampaigns": "Active",
+    "totalEntries": "Total entries",
+    "completedDraws": "Completed draws",
+    "live": "Live",
+    "recentCampaigns": "Recent campaigns",
+    "noCampaigns": "No campaigns yet",
+    "noCampaignsDesc": "Create your first campaign to start reaching consumers.",
+    "noAssets": "No assets registered",
+    "noAssetsDesc": "Register a prize asset to create a campaign.",
+    "th": { "campaign": "Campaign", "prize": "Prize", "entries": "Entries", "status": "Status", "asset": "Asset", "value": "Value" }
+  },
+
+  "admin": {
+    "panel": "Admin panel",
+    "title": "Administration",
+    "subtitle": "Logged in as {{name}}",
+    "campaigns": "Campaigns",
+    "vendors": "Vendors",
+    "draws": "Draw operations",
+    "drawsNote": "Draw results are read-only here. Use public verification to inspect a published result.",
+    "accessDenied": "Access denied",
+    "accessDeniedDesc": "This panel is restricted to administrators.",
+    "totalCampaigns": "Total campaigns",
+    "pendingReview": "Pending review",
+    "totalVendors": "Total vendors",
+    "activeCampaigns": "Active campaigns",
+    "pendingAlert": "{{count}} campaign(s) awaiting review",
+    "approve": "Approve",
+    "startReview": "Start review",
+    "verifyAssets": "Verify assets",
+    "schedule": "Schedule",
+    "approveVendor": "Approve vendor",
+    "retry": "Retry",
+    "searchCampaigns": "Search by campaign, vendor, or prize",
+    "filterStatus": "Filter by status",
+    "allStatuses": "All statuses",
+    "noMatchingCampaigns": "No campaigns match these filters",
+    "noDraws": "No draws have been created",
+    "loadCampaignsError": "Campaigns could not be loaded.",
+    "loadVendorsError": "Vendors could not be loaded.",
+    "loadDrawsError": "Draws could not be loaded.",
+    "actionError": "The requested action could not be completed.",
+    "notProvided": "Not provided",
+    "notPlanned": "Not planned",
+    "notLocked": "Not locked",
+    "notPublished": "Not published",
+    "viewVerification": "Verify",
+    "viewCampaign": "View {{title}}",
+    "th": {
+      "campaign": "Campaign",
+      "vendor": "Vendor",
+      "prize": "Prize",
+      "entryMode": "Entry mode",
+      "status": "Status",
+      "actions": "Actions",
+      "legalName": "Legal name",
+      "contact": "Contact",
+      "entropy": "Planned entropy",
+      "lockedAt": "Pool locked"
+    },
+    "noCampaigns": "No campaigns",
+    "noVendors": "No vendors registered",
+    "drawsDesc": "Draw operations"
+  },
+
+  "entries": {
+    "title": "My Entries",
+    "subtitle": "Track all your campaign entries and draw results.",
+    "loginRequired": "Login to view your entries",
+    "loginRequiredDesc": "Create a free account to participate in campaigns and track your entries.",
+    "loadError": "Could not load entries.",
+    "empty": "No entries yet",
+    "emptyDesc": "Browse active campaigns and get your first entry.",
+    "entered": "Entered {{date}}",
+    "drawAt": "Draw: {{date}}",
+    "winner": "Winner",
+    "eligible": "Eligible",
+    "active": "Active",
+    "cancelled": "Cancelled"
+  },
+
+  "results": {
+    "title": "Draw Results",
+    "subtitle": "View completed draws and verify results independently.",
+    "loadError": "Could not load results.",
+    "empty": "No completed draws yet",
+    "emptyDesc": "Completed campaign draws will appear here.",
+    "verify": "Verify"
+  },
+
+  "verify": {
+    "eyebrow": "Public verification",
+    "title": "Verify a draw result",
+    "desc": "Enter a draw ID to independently verify the cryptographic winner selection. No login required.",
+    "lookupTitle": "Look up a draw",
+    "drawIdPlaceholder": "Enter draw ID…",
+    "btn": "Verify",
+    "empty": "Enter a draw ID above",
+    "emptyDesc": "Completed draw IDs are published with every campaign result.",
+    "notFound": "Draw not found or not yet published.",
+    "pass": "✓ Verification passed — result is authentic",
+    "fail": "✗ Verification failed — result could not be reproduced",
+    "summary": "Draw summary",
+    "campaign": "Campaign",
+    "drawId": "Draw ID",
+    "algorithm": "Algorithm",
+    "totalEntries": "Total entries",
+    "winnerIndex": "Winner index",
+    "winnerEntry": "Winning entry",
+    "lockedAt": "Pool locked",
+    "completedAt": "Draw completed",
+    "evidence": "Cryptographic evidence",
+    "poolHash": "Pool hash (SHA-256)",
+    "seedCommitment": "Seed commitment (SHA-256)",
+    "revealedSeed": "Revealed seed",
+    "canonicalMsg": "Canonical draw message",
+    "independentNote": "You can reproduce this result independently using the verifier script at docs/draw-protocol/.",
+    "howTitle": "How to verify independently",
+    "step1": "1. Download the verification package (pool hash, seed, canonical message).",
+    "step2": "2. Sort the eligible entry IDs and compute SHA-256 of the canonical list.",
+    "step3": "3. Confirm the pool hash matches the published commitment.",
+    "step4": "4. Compute HMAC-SHA256(seed, canonical_message) and confirm the digest matches.",
+    "step5": "5. Map the digest to the winner index using index = int(digest, 16) % total_entries."
+  },
+
+  "auth": {
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Log in to your Asset-Draw account",
+    "loginBtn": "Log in",
+    "loginError": "Incorrect phone number or password.",
+    "noAccount": "Don't have an account?",
+    "registerLink": "Register",
+    "phoneLabel": "Phone number",
+    "phonePlaceholder": "09xxxxxxxx",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "registerTitle": "Create account",
+    "registerSubtitle": "Join Asset-Draw for free",
+    "registerBtn": "Create account",
+    "registerError": "Registration failed. Please try again.",
+    "nameLabel": "Full name",
+    "namePlaceholder": "Your full name",
+    "confirmLabel": "Confirm password",
+    "confirmPlaceholder": "Repeat your password",
+    "passwordMismatch": "Passwords do not match.",
+    "hasAccount": "Already have an account?",
+    "loginLink": "Login",
+    "staffLoginLink": "Staff sign in",
+    "verifyTitle": "Verify your number",
+    "verifySubtitle": "Enter the 6-digit verification code for {{phone}}",
+    "verifyBtn": "Verify",
+    "otpLabel": "Verification code",
+    "developmentOtpCode": "Local demo only — no SMS is sent. Enter code: {{code}}",
+    "otpRequired": "Please enter the full 6-digit code.",
+    "otpError": "Invalid or expired code.",
+    "backToRegister": "Back",
+    "successTitle": "You're in!",
+    "successSubtitle": "Account created successfully.",
+    "redirecting": "Taking you to your campaigns…"
+  },
+
+  "staffAccess": {
+    "loginTitle": "Staff sign in",
+    "loginSubtitle": "Use your staff email and password. Two-factor authentication is required.",
+    "mfaSubtitle": "Enter the current six-digit code from your authenticator app.",
+    "setupTitle": "Set up staff two-factor authentication",
+    "setupSubtitle": "Finish enrolling the authenticator for the initial administrator account.",
+    "setupInstructions": "Add the authenticator URI printed by the one-time bootstrap command to your authenticator app, then enter the setup token and current code here. Treat both bootstrap values as secrets.",
+    "emailLabel": "Staff email",
+    "setupTokenLabel": "One-time setup token",
+    "authenticatorCodeLabel": "Authenticator code",
+    "continue": "Continue to MFA",
+    "signIn": "Sign in",
+    "enableMfa": "Enable MFA",
+    "back": "Back",
+    "participantLogin": "Participant sign in",
+    "loginFailed": "Staff sign-in failed. Check your credentials and authenticator code.",
+    "setupFailed": "MFA setup failed. Check the setup token and current authenticator code."
+  },
+
+  "verifyStrip": {
+    "eyebrow": "Cryptographic verification",
+    "title": "Anyone can check the result.",
+    "desc": "Our draw protocol publishes a complete evidence package — pool hash, seed commitment, and canonical message — so any participant can independently reproduce and verify who won.",
+    "btn": "Verify a draw"
+  },
+
+  "footer": {
+    "about": "Transparent digital prize draws connecting businesses with consumers across Ethiopia.",
+    "explore": "Explore",
+    "forBusiness": "For Business",
+    "becomeVendor": "Become a vendor",
+    "vendorPortal": "Vendor portal",
+    "legal": "Legal",
+    "terms": "Terms & conditions",
+    "privacy": "Privacy policy",
+    "copyright": "© {{year}} Asset-Draw. All rights reserved.",
+    "tagline": "Transparent campaigns. Public evidence. Independently verifiable."
+  },
+
+  "currency": "ETB",
+  "common": {
+    "loading": "Loading…",
+    "view": "View",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+
+  "notFound": {
+    "title": "Page not found",
+    "desc": "The page you are looking for doesn't exist.",
+    "back": "Back to home"
+  },
+
+  "landing": {
+    "ribbon": "Transparent home for free and promotional prize campaigns"
+  }
+}
